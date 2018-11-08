@@ -4,15 +4,14 @@ import java.io.InputStream;
 
 public class Ejercicio_1_2 {
 
-	public void lanzarSumador(Integer n1, Integer n2){
+	public void lanzarSumador(String[] argumentos){
 	    String clase="com.creacion.Sumador";
 	    Process p;
 	    try {
 	        p = new ProcessBuilder(
                     "java",
                     clase,
-                    n1.toString(),
-                    n2.toString()
+                    argumentos[0]
             ).start();
 	        //pb.start();
 	        
@@ -48,9 +47,9 @@ public class Ejercicio_1_2 {
 	
 	public static void main(String[] args){
 		Ejercicio_1_2 l=new Ejercicio_1_2();
-	    l.lanzarSumador(1, 51);
-	    l.lanzarSumador(51, 100);
-	    System.out.println("Sumas realizadas con éxito");
+	    String[] numero = new String[1];
+	    
+	    l.lanzarSumador(args);
 	}
 
 }
