@@ -19,7 +19,7 @@ public class clienteFicheros extends JFrame implements Runnable {
     EstructuraFicheros Raiz;
 
 	// campos de cabecera parte superior
-	static JTextField cab  = new JTextField();
+	static JTextField cab = new JTextField();
 	static JTextField cab2 = new JTextField();
 	static JTextField cab3 = new JTextField();
 
