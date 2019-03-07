@@ -4,6 +4,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="P04_ServidorFicheros"/>
 	<classpathentry kind="src" path="UD_05_Seguridad"/>
+	<classpathentry kind="src" path="ExamenPSP2Ev"/>
 	<classpathentry kind="lib" path="src/P04_ServiciosEnRed/lib/commons-net-3.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

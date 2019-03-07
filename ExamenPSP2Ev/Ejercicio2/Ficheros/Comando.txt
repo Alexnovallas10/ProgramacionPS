@@ -1,0 +1,4 @@
+C:\Program Files\Java\jre1.8.0_201\bin\javaw.exe 
+-Dfile.encoding=UTF-8 -classpath "C:\Users\ifc\git\ProgramacionPS\bin;C:\Users\ifc\git\ProgramacionPS\src\P04_ServiciosEnRed\lib\commons-net-3.6.jar" Ejercicio2.Ejercicio2 
+Djava.security.manager "-Djava.security.policy=C:\Users\ifc\git\ProgramacionPS\bin\Ejercicio2\Ficheros\Politica.policy" 
+-Dfile.encoding=UTF-8 -classpath "C:\Users\ifc\git\ProgramacionPS\bin\Ejercicio2\Ejercicio2.class"
